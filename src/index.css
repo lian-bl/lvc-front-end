@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --custom-primary-color: #008065;
+  --custom-primary-active-color: #00ab86;
+  --custom-secondary-color: #6fb49c;
+  --custom-common-bg: #e6f0ef;
+  --custom-disabled-bg: #e5e5e5;
+  --custom-component-bg: #fff;
+  --custom-text-black-color: #1f2328;
+  --custom-text-white-color: #fff;
+  --custom-text-disabled-color: #b3b3b3;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
